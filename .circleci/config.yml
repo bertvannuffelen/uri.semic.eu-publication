@@ -613,6 +613,6 @@ workflows:
             - render-xsd-details
             - render-voc-rdf
       - create-artifact:
-          repository: git@github.com:SEMICeu/uri.semic.eu-generated.git
+          repository: git@github.com:bertvannuffelen/mygenerated.git
           requires:
             - expand-links
